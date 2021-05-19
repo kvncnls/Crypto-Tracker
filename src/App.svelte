@@ -35,6 +35,10 @@
 		text-align: center;
 		padding: 40px 0;
 		margin: 0 auto;
+		@media screen and (min-width: 640px) {
+			max-width: 1600px;
+			padding: 40px 20px;
+		}
 	}
 
 	h1 {
@@ -49,13 +53,5 @@
 		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 		gap: 30px;
 	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: 1600px;
-			padding: 40px 20px;
-		}
-	}
-
 
 </style>
