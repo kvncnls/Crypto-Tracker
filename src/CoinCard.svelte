@@ -1,9 +1,18 @@
 <script>
-    export let coinProp;
 
-    function changeIsPositive(priceChange){
-      return priceChange >= 0;
-    }
+  /* FEATURES TO ADD: */
+  // 1. Add an input field where the user can write a coin name to filter the results
+  // 2. Allow the user to fetch more coins with a “Load More” button
+  // 3. Make each coin clickable to show more data on that coin
+  // 4. Show a graph of price changes for a specific coin
+  // 5. Allow the user to sort the coins by percentage growth or current price
+  // 6. Deploy the project to Netlify
+
+  export let coinProp;
+
+  function changeIsPositive(priceChange){
+    return priceChange >= 0;
+  }
 </script>
 
 <div class="coin-card">
